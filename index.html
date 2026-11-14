@@ -1,45 +1,24 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Academic Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
-      margin: 50px auto;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1, h2 { color: #243b53; }
-    nav a { margin-right: 20px; }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Quantum Computing Summer School 2027, jointly organised by RMIT University and Monash University.">
+<title>Quantum Computing Summer School 2027</title>
+<style>
+:root{--navy:#080e55;--red:#e51d2a;--ink:#1d2540;--muted:#5c6476;--bg:#f5f7fb;--line:#e3e8f2}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:white}a{color:inherit}a:focus-visible,button:focus-visible{outline:3px solid #f5b743;outline-offset:4px}.container{max-width:1160px;margin:auto;padding:0 26px}.top{background:var(--navy);color:white;position:sticky;top:0;z-index:10;border-bottom:4px solid var(--red)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{font-size:1.16rem;font-weight:800;letter-spacing:-.02em;text-decoration:none;line-height:1.1}.brand small{display:block;font-size:.68rem;letter-spacing:.12em;font-weight:500;margin-top:5px;color:#d8dafa}.links{display:flex;align-items:center;gap:23px;flex-wrap:wrap}.links a{text-decoration:none;font-size:.91rem}.links a:hover{text-decoration:underline}.button{display:inline-block;background:var(--red);color:white;text-decoration:none;border-radius:9px;padding:12px 23px;font-weight:750}.button.disabled{background:#dce1ea;color:#4f5c72;cursor:default}.hero{background:linear-gradient(90deg,rgba(5,10,51,.78) 0%,rgba(5,10,51,.55) 48%,rgba(5,10,51,.22) 100%),url("quantum-background.png") center center/cover no-repeat;color:white;overflow:hidden;min-height:590px;display:flex;align-items:center}.hero .container{padding-top:100px;padding-bottom:105px;position:relative;width:100%}.eyebrow{text-transform:uppercase;letter-spacing:.19em;font-size:.78rem;color:#c4cafa;font-weight:800}.hero h1{text-shadow:0 3px 18px rgba(0,0,0,.35);font-size:clamp(2.8rem,6vw,5.5rem);line-height:1.1;max-width:900px;letter-spacing:-.05em;margin:18px 0 22px}.hero p{text-shadow:0 2px 12px rgba(0,0,0,.5);font-size:1.2rem;color:#e3e7ff;max-width:700px}.pills{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 34px}.pill{border:1px solid #6974ba;border-radius:100px;padding:7px 15px;font-weight:600;font-size:.91rem}.hero .outline{border:1px solid #b9c1fb;border-radius:9px;padding:12px 23px;text-decoration:none;margin-left:10px;display:inline-block;font-weight:700}.hero .outline:hover{background:#ffffff16}.section{padding:80px 0}.section.alt{background:var(--bg)}.kicker{color:var(--red);font-weight:800;letter-spacing:.13em;text-transform:uppercase;font-size:.76rem}.section h2{font-size:clamp(2rem,4vw,2.8rem);line-height:1.2;letter-spacing:-.035em;color:var(--navy);margin:10px 0 20px}.lead{font-size:1.13rem;color:#4b5468;max-width:900px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:26px;box-shadow:0 8px 30px #0c174008}.card h3{margin:0 0 8px;color:var(--navy);font-size:1.18rem}.card p{margin:0;color:var(--muted)}.card .symbol{font-size:1.7rem;margin-bottom:12px}.placeholder{border:1px dashed #a7b0c8;border-radius:14px;background:#f9faff;padding:32px;color:#59647b;margin-top:28px}.schedule{display:grid;gap:12px;margin-top:28px}.schedule .item{background:white;border:1px solid var(--line);border-radius:12px;padding:20px 24px;display:flex;gap:25px;align-items:center}.item strong{color:var(--navy);min-width:90px}.speakers{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:30px}.speaker{text-align:center;background:white;border:1px solid var(--line);border-radius:16px;padding:30px 18px}.avatar{height:104px;width:104px;border-radius:50%;background:linear-gradient(135deg,#dce2f8,#eff2fa);margin:0 auto 18px;display:grid;place-items:center;color:#818bb4;font-size:2.1rem}.speaker h3{font-size:1.03rem;margin:0;color:var(--navy)}.speaker p{font-size:.9rem;color:var(--muted);margin:6px 0 0}.organisers{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:26px}.org{border:1px solid var(--line);border-radius:15px;padding:30px;background:white}.org strong{display:block;font-size:1.6rem;color:var(--navy)}.org p{margin-bottom:0;color:var(--muted)}.footer{background:var(--navy);color:#dce1ff;padding:42px 0}.footer .container{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer a{color:white}@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.speakers{grid-template-columns:repeat(2,1fr)}.nav{align-items:flex-start;padding-top:18px;padding-bottom:18px;flex-direction:column}.links{gap:15px}.hero .container{padding-top:65px;padding-bottom:75px}}@media(max-width:550px){.grid,.speakers,.organisers{grid-template-columns:1fr}.hero .outline{margin:12px 0 0}.section{padding:55px 0}.schedule .item{display:block}.item strong{display:block;margin-bottom:5px}}
+</style>
 </head>
 <body>
-  <h1>Welcome to My Academic Website</h1>
-  <p>Lecturer | Software Engineering Researcher</p>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <h2 id="about">About Me</h2>
-  <p>I am a researcher interested in software
-     engineering, software testing, and AI.</p>
-
-  <h2 id="research">Research Interests</h2>
-  <p>AI for Software Engineering, Software Testing,
-     and Responsible AI.</p>
-
-  <h2 id="publications">Publications</h2>
-  <p>My publications will appear here.</p>
-
-  <h2 id="contact">Contact</h2>
-  <p>Add your professional email here.</p>
-</body>
-</html>
+<header class="top"><nav class="container nav" aria-label="Main navigation"><a class="brand" href="#home">QUANTUM SUMMER SCHOOL<small>RMIT UNIVERSITY × MONASH UNIVERSITY</small></a><div class="links"><a href="#about">About</a><a href="#program">Program</a><a href="#speakers">Speakers</a><a href="#venue">Venue</a><a href="#organisers">Organisers</a><a href="#sponsors">Sponsors</a><a href="#registration" class="button">Registration</a></div></nav></header>
+<main>
+<section class="hero" id="home"><div class="container"><div class="eyebrow">Learn · Explore · Connect</div><h1>Quantum Computing<br>Summer School 2027</h1><p>Discover quantum computing through expert-led sessions, practical learning and connections across academia and industry.</p><div class="pills"><span class="pill">📅 Dates to be announced</span><span class="pill">📍 Venue to be announced</span><span class="pill">Australia</span></div><a href="#about" class="button">Explore the school</a><a href="#registration" class="outline">Registration updates</a></div></section>
+<section class="section" id="about"><div class="container"><div class="kicker">About the event</div><h2>Explore the future of quantum computing</h2><p class="lead">The Quantum Computing Summer School brings together students, researchers and industry professionals for an engaging introduction to quantum computing and its emerging applications. The school aims to combine foundational concepts, expert perspectives and hands-on learning in a collaborative environment.</p><div class="grid"><article class="card"><div class="symbol">⚛</div><h3>Quantum foundations</h3><p>Build an understanding of quantum principles, algorithms and technologies.</p></article><article class="card"><div class="symbol">⌘</div><h3>Practical learning</h3><p>Explore quantum programming concepts through interactive activities and workshops.</p></article><article class="card"><div class="symbol">◎</div><h3>Connect and collaborate</h3><p>Meet peers, academics and professionals working in the quantum ecosystem.</p></article></div></div></section>
+<section class="section alt" id="audience"><div class="container"><div class="kicker">Who should attend</div><h2>Curious minds welcome</h2><p class="lead">The school is intended for undergraduate and postgraduate students, early-career researchers, academics and industry professionals interested in quantum computing. Detailed prerequisites will be confirmed with the program.</p></div></section>
+<section class="section" id="program"><div class="container"><div class="kicker">Program</div><h2>Program at a glance</h2><p class="lead">The detailed schedule and session topics are being developed. Please check back for confirmed sessions and workshop details.</p><div class="schedule"><div class="item"><strong>Sessions</strong><span>Expert talks and introductory lectures — to be confirmed</span></div><div class="item"><strong>Workshops</strong><span>Practical activities and demonstrations — to be confirmed</span></div><div class="item"><strong>Networking</strong><span>Opportunities to connect with the quantum community — to be confirmed</span></div></div></div></section>
+<section class="section alt" id="speakers"><div class="container"><div class="kicker">Speakers</div><h2>Meet our speakers</h2><p class="lead">Our speaker lineup will be announced soon.</p><div class="speakers"><article class="speaker"><div class="avatar" aria-hidden="true">?</div><h3>Speaker to be announced</h3><p>Affiliation to be confirmed</p></article><article class="speaker"><div class="avatar" aria-hidden="true">?</div><h3>Speaker to be announced</h3><p>Affiliation to be confirmed</p></article><article class="speaker"><div class="avatar" aria-hidden="true">?</div><h3>Speaker to be announced</h3><p>Affiliation to be confirmed</p></article><article class="speaker"><div class="avatar" aria-hidden="true">?</div><h3>Speaker to be announced</h3><p>Affiliation to be confirmed</p></article></div></div></section>
+<section class="section" id="venue"><div class="container"><div class="kicker">Venue</div><h2>Where to find us</h2><div class="placeholder"><strong>Venue details coming soon</strong><p>The host location, address and travel information will be published once confirmed.</p></div></div></section>
+<section class="section alt" id="organisers"><div class="container"><div class="kicker">Organisers</div><h2>Jointly organised by</h2><div class="organisers"><div class="org"><strong>RMIT University</strong><p>Organising institution</p></div><div class="org"><strong>Monash University</strong><p>Organising institution</p></div></div><p style="color:var(--muted);margin-top:24px">Individual organising committee members will be listed here once confirmed.</p></div></section>
+<section class="section" id="sponsors"><div class="container"><div class="kicker">Sponsors</div><h2>Our supporters</h2><div class="placeholder"><strong>Sponsors to be announced</strong><p>Sponsor information will appear here when confirmed.</p></div></div></section>
+<section class="section alt" id="registration"><div class="container"><div class="kicker">Registration</div><h2>Join the summer school</h2><p class="lead">Registration dates, ticket categories and fees will be announced soon.</p><span class="button disabled" aria-disabled="true">Registration opening soon</span></div></section>
+</main><footer class="footer"><div class="container"><div><strong>Quantum Computing Summer School 2027</strong><div>Jointly organised by RMIT University and Monash University</div></div><div><a href="#home">Back to top ↑</a></div></div></footer>
+</body></html>
