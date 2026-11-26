@@ -559,4 +559,30 @@
 
     }
 
+/* =========================================
+   Footer Contact Information
+   ========================================= */
 
+.footer-contact {
+    max-width: 450px;
+}
+
+.footer-contact strong {
+    font-size: 1.15rem;
+    color: white;
+}
+
+.footer-contact p {
+    font-size: .9rem;
+    margin: 8px 0;
+}
+
+.footer-contact a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
