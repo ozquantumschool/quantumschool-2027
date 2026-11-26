@@ -559,30 +559,93 @@
 
     }
 
+
 /* =========================================
-   Footer Contact Information
+   Footer Section
    ========================================= */
 
+.footer {
+    background: var(--navy);
+    color: #dce1ff;
+    padding: 50px 0;
+    border-top: 4px solid var(--red);
+}
+
+
+/* Footer Layout */
+
+.footer .footer-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+
+/* Event Information */
+
+.footer-info {
+    text-align: left;
+}
+
+
+/* Contact Information */
+
 .footer-contact {
-    max-width: 450px;
+    text-align: left;
 }
 
-.footer-contact strong {
+
+/* Footer Headings */
+
+.footer h3 {
+    color: white;
     font-size: 1.15rem;
-    color: white;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 14px;
 }
 
-.footer-contact p {
-    font-size: .9rem;
-    margin: 8px 0;
+
+/* Footer Paragraphs */
+
+.footer p {
+    color: #dce1ff;
+    font-size: .95rem;
+    line-height: 1.7;
+    margin: 0 0 12px;
 }
 
-.footer-contact a {
+
+/* Footer Links */
+
+.footer a {
     color: white;
+    font-size: .95rem;
     font-weight: 600;
     text-decoration: none;
+    overflow-wrap: anywhere;
 }
 
-.footer-contact a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
+
+
+/* =========================================
+   Responsive Footer — Mobile Devices
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    .footer .footer-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer {
+        padding: 35px 0;
+    }
+
+}
+
